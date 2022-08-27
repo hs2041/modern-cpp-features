@@ -16,7 +16,7 @@ class MarkdownParser():
         content = []
         mark = '#' * level
         for line in self.lines:
-            if start and not end:
+            if start iand not end:
                 end |= (f'{mark} ' in line[:(level + 1)]) and (not f'{mark} {name}' in line)
                 if end:
                     start = False
