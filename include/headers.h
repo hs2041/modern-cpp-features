@@ -4,6 +4,7 @@
 #include <iostream> 
 #include <vector>
 #include <string>
+#include <deque>
 #include <iomanip>
 #include <type_traits>
 #include <bits/stdc++.h>

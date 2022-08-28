@@ -12,3 +12,5 @@ add_executable(02_02_initializer_list src/02_02_initializer_list.cpp)
 
 add_executable(03_01_decltype src/03_01_decltype.cpp)
 
+add_executable(03_02_deque src/03_02_deque.cpp)
+
