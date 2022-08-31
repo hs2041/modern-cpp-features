@@ -51,7 +51,6 @@ C++17 includes the following new language features:
 
 C++17 includes the following new library features:
 - [std::variant](#stdvariant)
-- [std::optional](#stdoptional)
 - [std::string_view](#stdstring_view)
 - [std::invoke](#stdinvoke)
 - [std::apply](#stdapply)
@@ -59,7 +58,6 @@ C++17 includes the following new library features:
 - [std::byte](#stdbyte)
 - [splicing for maps and sets](#splicing-for-maps-and-sets)
 - [parallel algorithms](#parallel-algorithms)
-
 
 C++14 includes the following new language features:
 - [binary literals](#binary-literals)
@@ -82,7 +80,6 @@ C++11 includes the following new language features:
 - [forwarding references](#forwarding-references)
 - [initializer lists](#initializer-lists)
 - [static assertions](#static-assertions)
-- [auto](#auto)
 - [lambda expressions](#lambda-expressions)
 - [type aliases](#type-aliases)
 - [strongly-typed enums](#strongly-typed-enums)
@@ -107,20 +104,12 @@ C++11 includes the following new language features:
 C++11 includes the following new library features:
 - [std::move](#stdmove)
 - [std::forward](#stdforward)
-- [std::thread](#stdthread)
 - [type traits](#type-traits)
 - [smart pointers](#smart-pointers)
 - [std::chrono](#stdchrono)
-- [std::tie](#stdtie)
-- [std::array](#stdarray)
 - [unordered containers](#unordered-containers)
-- [std::make_shared](#stdmake_shared)
 - [memory model](#memory-model)
 - [std::async](#stdasync)
-- [std::begin/end](#stdbeginend)
-
-
-
 ## C++20 Language Features
 
 ### Coroutines
