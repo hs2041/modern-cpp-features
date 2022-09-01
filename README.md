@@ -21,15 +21,12 @@ C++20 includes the following new library features:
 - [synchronized buffered outputstream](#synchronized-buffered-outputstream)
 - [std::span](#stdspan)
 - [bit operations](#bit-operations)
-- [math constants](#math-constants)
 - [std::is_constant_evaluated](#stdis_constant_evaluated)
 - [std::make_shared supports arrays](#stdmake_shared-supports-arrays)
 - [starts_with and ends_with on strings](#starts_with-and-ends_with-on-strings)
 - [check if associative container has element](#check-if-associative-container-has-element)
 - [std::bit_cast](#stdbit_cast)
 - [std::midpoint](#stdmidpoint)
-- [std::to_array](#stdto_array)
-
 
 C++17 includes the following new language features:
 - [declaring non-type template parameters with auto](#declaring-non-type-template-parameters-with-auto)
