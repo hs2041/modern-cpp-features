@@ -15,7 +15,6 @@ C++20 includes the following new language features:
 - [constexpr virtual functions](#constexpr-virtual-functions)
 - [explicit(bool)](#explicitbool)
 - [immediate functions](#immediate-functions)
-- [using enum](#using-enum)
 - [lambda capture of parameter pack](#lambda-capture-of-parameter-pack)
 - [char8_t](#char8_t)
 
@@ -57,7 +56,6 @@ C++17 includes the following new library features:
 - [std::filesystem](#stdfilesystem)
 - [std::byte](#stdbyte)
 - [splicing for maps and sets](#splicing-for-maps-and-sets)
-- [parallel algorithms](#parallel-algorithms)
 
 C++14 includes the following new language features:
 - [binary literals](#binary-literals)
@@ -70,8 +68,6 @@ C++14 includes the following new language features:
 C++14 includes the following new library features:
 - [user-defined literals for standard library types](#user-defined-literals-for-standard-library-types)
 - [compile-time integer sequences](#compile-time-integer-sequences)
-- [std::make_unique](#stdmake_unique)
-
 
 C++11 includes the following new language features:
 - [move semantics](#move-semantics)
@@ -82,28 +78,18 @@ C++11 includes the following new language features:
 - [static assertions](#static-assertions)
 - [lambda expressions](#lambda-expressions)
 - [type aliases](#type-aliases)
-- [strongly-typed enums](#strongly-typed-enums)
 - [attributes](#attributes)
 - [constexpr](#constexpr)
 - [delegating constructors](#delegating-constructors)
 - [user-defined literals](#user-defined-literals)
-- [explicit virtual overrides](#explicit-virtual-overrides)
-- [final specifier](#final-specifier)
 - [default functions](#default-functions)
 - [special member functions for move semantics](#special-member-functions-for-move-semantics)
 - [converting constructors](#converting-constructors)
 - [explicit conversion functions](#explicit-conversion-functions)
-- [non-static data member initializers](#non-static-data-member-initializers)
-- [right angle brackets](#right-angle-brackets)
 - [ref-qualified member functions](#ref-qualified-member-functions)
-- [trailing return types](#trailing-return-types)
-- [noexcept specifier](#noexcept-specifier)
-- [char32_t and char16_t](#char32_t-and-char16_t)
 - [raw string literals](#raw-string-literals)
 
 C++11 includes the following new library features:
-- [std::move](#stdmove)
-- [std::forward](#stdforward)
 - [type traits](#type-traits)
 - [smart pointers](#smart-pointers)
 - [std::chrono](#stdchrono)
@@ -128,7 +114,8 @@ generator<int> range(int start, int end) {
 }
 
 for (int n : range(0, 10)) {
-  std::cout << n << std::endl;
+  std::cout << n <std::cout<<"lvalue passed\n";   
+    else< std::endl;
 }
 ```
 The above `range` generator function generates values starting at `start` until `end` (exclusive), with each iteration step yielding the current value stored in `start`. The generator maintains its state across each invocation of `range` (in this case, the invocation is for each iteration in the for loop). `co_yield` takes the given expression, yields (i.e. returns) its value, and suspends the coroutine at that point. Upon resuming, execution continues after the `co_yield`.
