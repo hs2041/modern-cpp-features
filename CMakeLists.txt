@@ -35,3 +35,5 @@ add_executable(03_06_std_ref src/03_06_std_ref.cpp)
 add_executable(04_01_type_name src/04_01_type_name.cpp)
 add_executable(05_01_auto_types src/05_01_auto_types.cpp)
 add_executable(05_02_bool_reference src/05_02_bool_reference.cpp)
+add_executable(07_01_intialise_vector src/07_01_intialise_vector.cpp)
+

@@ -34,7 +34,6 @@ C++17 includes the following new language features:
 - [constexpr lambda](#constexpr-lambda)
 - [lambda capture this by value](#lambda-capture-this-by-value)
 - [inline variables](#inline-variables)
-- [nested namespaces](#nested-namespaces)
 - [structured bindings](#structured-bindings)
 - [selection statements with initializer](#selection-statements-with-initializer)
 - [constexpr if](#constexpr-if)
@@ -44,7 +43,6 @@ C++17 includes the following new language features:
 - [\_\_has\_include](#\_\_has\_include)
 
 C++17 includes the following new library features:
-- [std::variant](#stdvariant)
 - [std::string_view](#stdstring_view)
 - [std::invoke](#stdinvoke)
 - [std::apply](#stdapply)
@@ -61,8 +59,6 @@ C++14 includes the following new language features:
 - [ [[deprecated]] attribute](#deprecated-attribute)
 
 C++14 includes the following new library features:
-- [user-defined literals for standard library types](#user-defined-literals-for-standard-library-types)
-- [compile-time integer sequences](#compile-time-integer-sequences)
 
 C++11 includes the following new language features:
 - [move semantics](#move-semantics)
