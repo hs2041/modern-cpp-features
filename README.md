@@ -45,9 +45,6 @@ C++17 includes the following new language features:
 C++17 includes the following new library features:
 - [std::string_view](#stdstring_view)
 - [std::invoke](#stdinvoke)
-- [std::apply](#stdapply)
-- [std::filesystem](#stdfilesystem)
-- [std::byte](#stdbyte)
 - [splicing for maps and sets](#splicing-for-maps-and-sets)
 
 C++14 includes the following new language features:
@@ -65,24 +62,16 @@ C++11 includes the following new language features:
 - [variadic templates](#variadic-templates)
 - [forwarding references](#forwarding-references)
 - [static assertions](#static-assertions)
-- [lambda expressions](#lambda-expressions)
-- [type aliases](#type-aliases)
 - [attributes](#attributes)
 - [constexpr](#constexpr)
 - [user-defined literals](#user-defined-literals)
-- [default functions](#default-functions)
 - [special member functions for move semantics](#special-member-functions-for-move-semantics)
 - [explicit conversion functions](#explicit-conversion-functions)
-- [ref-qualified member functions](#ref-qualified-member-functions)
 - [raw string literals](#raw-string-literals)
 
 C++11 includes the following new library features:
 - [type traits](#type-traits)
-- [smart pointers](#smart-pointers)
-- [std::chrono](#stdchrono)
-- [unordered containers](#unordered-containers)
 - [memory model](#memory-model)
-- [std::async](#stdasync)
 ## C++20 Language Features
 
 ### Coroutines
