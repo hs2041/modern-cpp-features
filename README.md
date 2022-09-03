@@ -52,7 +52,6 @@ C++14 includes the following new language features:
 - [generic lambda expressions](#generic-lambda-expressions)
 - [lambda capture initializers](#lambda-capture-initializers)
 - [relaxing constraints on constexpr functions](#relaxing-constraints-on-constexpr-functions)
-- [variable templates](#variable-templates)
 - [ [[deprecated]] attribute](#deprecated-attribute)
 
 C++14 includes the following new library features:
@@ -60,7 +59,6 @@ C++14 includes the following new library features:
 C++11 includes the following new language features:
 - [move semantics](#move-semantics)
 - [variadic templates](#variadic-templates)
-- [forwarding references](#forwarding-references)
 - [static assertions](#static-assertions)
 - [attributes](#attributes)
 - [constexpr](#constexpr)
@@ -70,7 +68,6 @@ C++11 includes the following new language features:
 - [raw string literals](#raw-string-literals)
 
 C++11 includes the following new library features:
-- [type traits](#type-traits)
 - [memory model](#memory-model)
 ## C++20 Language Features
 

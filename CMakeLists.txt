@@ -20,6 +20,7 @@ add_executable(c_03_move_forward src/concepts/c_03_move_forward.cpp)
 add_executable(c_04_terminate src/concepts/c_04_terminate.cpp)
 add_executable(c_05_noexcept src/concepts/c_05_noexcept.cpp)
 add_executable(c_06_ref_functions src/concepts/c_06_ref_functions.cpp)
+add_executable(c_07_iterator_invalidation src/concepts/c_07_iterator_invalidation.cpp)
 
 add_executable(01_01_template_type_deduction src/01_01_template_type_deduction.cpp)
 add_executable(01_02_deduction_paramtypes src/01_02_deduction_paramtypes.cpp)
@@ -36,4 +37,12 @@ add_executable(04_01_type_name src/04_01_type_name.cpp)
 add_executable(05_01_auto_types src/05_01_auto_types.cpp)
 add_executable(05_02_bool_reference src/05_02_bool_reference.cpp)
 add_executable(07_01_intialise_vector src/07_01_intialise_vector.cpp)
+
+add_executable(08_01_nullptr src/08_01_nullptr.cpp)
+
+add_executable(09_01_alias_declaration src/09_01_alias_declaration.cpp)
+
+add_executable(09_02_type_traits src/09_02_type_traits.cpp)
+
+add_executable(10_scoped_enums src/10_scoped_enums.cpp)
 
