@@ -2,7 +2,6 @@
 
 ## Overview
 
-
 C++20 includes the following new language features:
 - [coroutines](#coroutines)
 - [concepts](#concepts)
@@ -61,7 +60,6 @@ C++11 includes the following new language features:
 - [variadic templates](#variadic-templates)
 - [static assertions](#static-assertions)
 - [attributes](#attributes)
-- [constexpr](#constexpr)
 - [user-defined literals](#user-defined-literals)
 - [special member functions for move semantics](#special-member-functions-for-move-semantics)
 - [explicit conversion functions](#explicit-conversion-functions)

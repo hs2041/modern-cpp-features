@@ -46,3 +46,8 @@ add_executable(09_02_type_traits src/09_02_type_traits.cpp)
 
 add_executable(10_scoped_enums src/10_scoped_enums.cpp)
 
+add_executable(12_01_reference_qualifier src/12_01_reference_qualifier.cpp)
+
+add_executable(14_01_noexcept src/14_01_noexcept.cpp)
+add_executable(15_01_constexpr src/15_01_constexpr.cpp)
+
