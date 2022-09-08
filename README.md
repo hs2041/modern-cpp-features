@@ -24,18 +24,14 @@ C++20 includes the following new library features:
 - [std::make_shared supports arrays](#stdmake_shared-supports-arrays)
 - [starts_with and ends_with on strings](#starts_with-and-ends_with-on-strings)
 - [check if associative container has element](#check-if-associative-container-has-element)
-- [std::bit_cast](#stdbit_cast)
-- [std::midpoint](#stdmidpoint)
 
 C++17 includes the following new language features:
 - [declaring non-type template parameters with auto](#declaring-non-type-template-parameters-with-auto)
 - [folding expressions](#folding-expressions)
 - [constexpr lambda](#constexpr-lambda)
 - [lambda capture this by value](#lambda-capture-this-by-value)
-- [inline variables](#inline-variables)
 - [structured bindings](#structured-bindings)
 - [selection statements with initializer](#selection-statements-with-initializer)
-- [constexpr if](#constexpr-if)
 - [utf-8 character literals](#utf-8-character-literals)
 - [direct-list-initialization of enums](#direct-list-initialization-of-enums)
 - [fallthrough, nodiscard, maybe_unused attributes](#fallthrough-nodiscard-maybe_unused-attributes)
@@ -62,7 +58,6 @@ C++11 includes the following new language features:
 - [attributes](#attributes)
 - [user-defined literals](#user-defined-literals)
 - [special member functions for move semantics](#special-member-functions-for-move-semantics)
-- [explicit conversion functions](#explicit-conversion-functions)
 - [raw string literals](#raw-string-literals)
 
 C++11 includes the following new library features:

@@ -51,3 +51,13 @@ add_executable(12_01_reference_qualifier src/12_01_reference_qualifier.cpp)
 add_executable(14_01_noexcept src/14_01_noexcept.cpp)
 add_executable(15_01_constexpr src/15_01_constexpr.cpp)
 
+add_executable(16_01_copy_mutex src/16_01_copy_mutex.cpp)
+
+add_executable(16_02_atomic src/16_02_atomic.cpp)
+
+add_executable(17_01_default_argument_const src/17_01_default_argument_const.cpp)
+
+add_executable(17_02_virtual_destructor src/17_02_virtual_destructor.cpp)
+
+add_executable(17_03_inline src/17_03_inline.cpp)
+
