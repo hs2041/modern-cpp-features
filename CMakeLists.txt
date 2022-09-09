@@ -65,3 +65,5 @@ add_executable(22_01_static_assert src/22_01_static_assert.cpp)
 
 add_executable(17_04_all_rules src/17_04_all_rules.cpp)
 
+add_executable(17_05_operator_generations src/17_05_operator_generations.cpp)
+
