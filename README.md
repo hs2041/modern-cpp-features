@@ -45,7 +45,7 @@ C++17 includes the following new library features:
 C++14 includes the following new language features:
 - [binary literals](#binary-literals)
 - [generic lambda expressions](#generic-lambda-expressions)
-- [lambda capture initializers](#lambda-capture-initializers)
+- [lambda capture initializers](#lambda-capture-ini`tializers)
 - [relaxing constraints on constexpr functions](#relaxing-constraints-on-constexpr-functions)
 - [ [[deprecated]] attribute](#deprecated-attribute)
 

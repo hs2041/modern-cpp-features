@@ -67,3 +67,9 @@ add_executable(17_04_all_rules src/17_04_all_rules.cpp)
 
 add_executable(17_05_operator_generations src/17_05_operator_generations.cpp)
 
+add_executable(18_01_unique_pointers src/18_01_unique_pointers.cpp)
+
+add_executable(19_01_shared_pointer src/19_01_shared_pointer.cpp)
+
+add_executable(19_02_shared_from_this src/19_02_shared_from_this.cpp)
+
