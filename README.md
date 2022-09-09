@@ -54,14 +54,11 @@ C++14 includes the following new library features:
 C++11 includes the following new language features:
 - [move semantics](#move-semantics)
 - [variadic templates](#variadic-templates)
-- [static assertions](#static-assertions)
 - [attributes](#attributes)
 - [user-defined literals](#user-defined-literals)
-- [special member functions for move semantics](#special-member-functions-for-move-semantics)
 - [raw string literals](#raw-string-literals)
 
 C++11 includes the following new library features:
-- [memory model](#memory-model)
 ## C++20 Language Features
 
 ### Coroutines
