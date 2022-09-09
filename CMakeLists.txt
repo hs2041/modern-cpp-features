@@ -61,3 +61,7 @@ add_executable(17_02_virtual_destructor src/17_02_virtual_destructor.cpp)
 
 add_executable(17_03_inline src/17_03_inline.cpp)
 
+add_executable(22_01_static_assert src/22_01_static_assert.cpp)
+
+add_executable(17_04_all_rules src/17_04_all_rules.cpp)
+
