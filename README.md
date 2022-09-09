@@ -52,7 +52,6 @@ C++14 includes the following new language features:
 C++14 includes the following new library features:
 
 C++11 includes the following new language features:
-- [move semantics](#move-semantics)
 - [variadic templates](#variadic-templates)
 - [attributes](#attributes)
 - [user-defined literals](#user-defined-literals)

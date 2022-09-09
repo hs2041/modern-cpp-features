@@ -73,3 +73,8 @@ add_executable(19_01_shared_pointer src/19_01_shared_pointer.cpp)
 
 add_executable(19_02_shared_from_this src/19_02_shared_from_this.cpp)
 
+add_executable(19_03_sharing_pointers src/19_03_sharing_pointers.cpp)
+add_executable(20_01_weak_pointers src/20_01_weak_pointers.cpp)
+
+add_executable(24_01_basic_universal src/24_01_basic_universal.cpp)
+
