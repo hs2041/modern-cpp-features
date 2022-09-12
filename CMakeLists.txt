@@ -6,6 +6,8 @@ set(CMAKE_CXX_STANDARD 17)
 include_directories(include)
 
 find_package(Boost REQUIRED)
+find_package(Threads REQUIRED)
+
 
 message("abc ${Boost_INCLUDE_DIRS}")
 message("abc ${Boost_LIBRARIES}")
@@ -77,4 +79,22 @@ add_executable(19_03_sharing_pointers src/19_03_sharing_pointers.cpp)
 add_executable(20_01_weak_pointers src/20_01_weak_pointers.cpp)
 
 add_executable(24_01_basic_universal src/24_01_basic_universal.cpp)
+
+add_executable(31_01_basic_lambda src/31_01_basic_lambda.cpp)
+add_executable(31_02_capture_modes src/31_02_capture_modes.cpp)
+
+add_executable(31_03_init_capture src/31_03_init_capture.cpp)
+
+add_executable(41_01_object_slicing src/41_01_object_slicing.cpp)
+
+add_executable(35_01_async src/35_01_async.cpp)
+
+target_link_libraries(35_01_async Threads::Threads)
+
+add_executable(35_02_promise src/35_02_promise.cpp)
+target_link_libraries(35_02_promise Threads::Threads)
+
+add_executable(40_01_volatile src/40_01_volatile.cpp)
+
+target_link_libraries(40_01_volatile Threads::Threads)
 
