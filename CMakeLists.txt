@@ -98,3 +98,19 @@ add_executable(40_01_volatile src/40_01_volatile.cpp)
 
 target_link_libraries(40_01_volatile Threads::Threads)
 
+add_executable(26_01_template_constructor src/26_01_template_constructor.cpp)
+
+target_link_libraries(26_01_template_constructor Threads::Threads)
+
+add_executable(39_01_condition_variable src/39_01_condition_variable.cpp)
+
+target_link_libraries(39_01_condition_variable Threads::Threads)
+
+add_executable(39_02_futures_promise src/39_02_futures_promise.cpp)
+
+target_link_libraries(39_02_futures_promise Threads::Threads)
+
+add_executable(39_03_shared_future src/39_03_shared_future.cpp)
+
+target_link_libraries(39_03_shared_future Threads::Threads)
+
