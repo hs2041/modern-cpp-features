@@ -23,6 +23,8 @@ add_executable(c_04_terminate src/concepts/c_04_terminate.cpp)
 add_executable(c_05_noexcept src/concepts/c_05_noexcept.cpp)
 add_executable(c_06_ref_functions src/concepts/c_06_ref_functions.cpp)
 add_executable(c_07_iterator_invalidation src/concepts/c_07_iterator_invalidation.cpp)
+add_executable(c_08_variadic_templates src/concepts/c_08_variadic_templates.cpp)
+add_executable(c_09_deprecated_attribute src/concepts/c_09_deprecated_attribute.cpp)
 
 add_executable(01_01_template_type_deduction src/01_01_template_type_deduction.cpp)
 add_executable(01_02_deduction_paramtypes src/01_02_deduction_paramtypes.cpp)

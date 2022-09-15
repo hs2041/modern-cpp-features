@@ -43,6 +43,10 @@ C++17 includes the following new library features:
 - [splicing for maps and sets](#splicing-for-maps-and-sets)
 
 C++14 includes the following new language features:
+- [binary literals](#binary-literals)
+- [generic lambda expressions](#generic-lambda-expressions)
+- [relaxing constraints on constexpr functions](#relaxing-constraints-on-constexpr-functions)
+- [ [[deprecated]] attribute](#deprecated-attribute)
 
 C++14 includes the following new library features:
 
