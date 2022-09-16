@@ -47,8 +47,6 @@ C++14 includes the following new language features:
 C++14 includes the following new library features:
 
 C++11 includes the following new language features:
-- [attributes](#attributes)
-- [raw string literals](#raw-string-literals)
 
 C++11 includes the following new library features:
 ## C++20 Language Features
